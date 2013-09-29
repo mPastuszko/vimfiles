@@ -261,10 +261,8 @@ else
     else
         if $TERM == 'xterm'
             set term=xterm-256color
-            colorscheme railscasts
-        else
-            colorscheme default
         endif
+        colorscheme railscasts
     endif
 endif
 
