@@ -448,3 +448,6 @@ inoremap <Esc>D <left>
 if has("balloon_eval")
   set noballooneval
 endif
+
+" Synchronize vim clipboard with the system clipboard
+set clipboard^=unnamed
